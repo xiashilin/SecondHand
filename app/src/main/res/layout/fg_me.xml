@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ic_def_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击登录"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right">
+
+            <ImageView
+                android:id="@+id/user_info"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/ic_arrow" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <com.xsl.secondhand.widget.SettingItemView
+            android:id="@+id/item_info"
+            style="@style/settingStyle"
+            android:background="@android:color/white"
+            app:isShowRightText="false"
+            app:leftIcon="@mipmap/ic_chat"
+            app:leftText="我的消息" />
+
+        <com.xsl.secondhand.widget.SettingItemView
+            android:id="@+id/item_release"
+            style="@style/settingStyle"
+            android:background="@android:color/white"
+            app:isShowRightText="false"
+            app:leftIcon="@mipmap/ic_release_good"
+
+            app:leftText="发布物品" />
+
+        <com.xsl.secondhand.widget.SettingItemView
+            android:id="@+id/item_money"
+            style="@style/settingStyle"
+            android:background="@android:color/white"
+            app:isShowRightText="false"
+            app:leftIcon="@mipmap/ic_box"
+
+            app:leftText="我的钱包" />
+
+
+        <com.xsl.secondhand.widget.SettingItemView
+            android:id="@+id/item_collection"
+            style="@style/settingStyle"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            app:isShowRightText="false"
+            app:leftIcon="@mipmap/ic_collect"
+
+            app:leftText="我的收藏" />
+
+        <com.xsl.secondhand.widget.SettingItemView
+            android:id="@+id/item_feedback"
+            style="@style/settingStyle"
+            android:background="@android:color/white"
+            app:isShowRightText="false"
+            app:leftIcon="@mipmap/ic_feedback"
+            app:leftText="反馈" />
+
+        <com.xsl.secondhand.widget.SettingItemView
+            android:id="@+id/item_about"
+            style="@style/settingStyle"
+            android:background="@android:color/white"
+            app:isShowRightText="false"
+            app:leftIcon="@mipmap/ic_about"
+            app:leftText="关于" />
+    </LinearLayout>
+
+</LinearLayout>

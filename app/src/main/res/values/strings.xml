@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">旧货</string>
+    <!--Loading-->
+    <string name="load_msg">正在加载中&#8230;</string>
+    <string name="title_home">首页</string>
+    <string name="title_me">我的</string>
+    <string name="title_knowledge">通知</string>
+    <!--Loading-->
+    <string name="load_update">正在修改中&#8230;</string>
+    <string name="load_delete">正在删除中&#8230;</string>
+    <string name="load_send_code">正在发送验证码&#8230;</string>
+    <string name="load_verify">正在验证中&#8230;</string>
+    <string name="load_switch">正在切换中&#8230;</string>
+    <string name="load_login">正在登录中&#8230;</string>
+    <string name="load_sign">正在注册中&#8230;</string>
+    <string name="get_code">获取验证码</string>
+    <string name="reset_get">重新获取</string>
+    <string name="verify_phone">验证手机号</string>
+    <string name="verify">验证</string>
+    <string name="error_invalid_password">密码大于 4 位</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">这个是必填项</string>
+    <string name="username">用户名</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="phone">电话</string>
+    <string name="email">邮箱</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="not_set">未设置</string>
+    <string name="year">岁</string>
+    <string name="setting">设置</string>
+
+    <string name="account_registration">一、账号注册</string>
+    <string name="account_registration_text">\t\t\t\t1、用户使用该软件需购买和其他服务时,需注册“旧货”用户账号</string>
+    <string name="account_registration_text2">\t\t\t\t2、在使用注册服务时,需要提供您的真实姓名,如带来不必要的麻烦，敬请谅解</string>
+    <string name="function_using">二、功能使用</string>
+    <string name="function_using_text">\t\t\t\t1、本款软件主要的功能有登录注册,查看周围的物品信息，了解附近的物品消息，并且可以留言购买</string>
+    <string name="function_using_text2">\t\t\t\t2、用户可以查看物品，并且可以发布物品,用户可以反馈，方便我们平台进行修复</string>
+    <string name="function_using_text3">\t\t\t\t3、用户可以修改自己的个人信息，以及进行各种信息的修改。</string>
+    <string name="user_agreement">三、用户协议</string>
+    <string name="user_agreement_text">\t\t\t\t本软件仅仅作为电商辅助软件，用户不得利用软件制作、上传、复制、发送以下内容:\n</string>
+    <string name="user_agreement_text2">\t\t\t\t1. 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的;\n\t\t\t\t2.损害国家荣誉和利益的；
+        \n\t\t\t\t3. 煽动民族仇恨，扰乱社会秩序，破坏社会稳定的；
+        \n\t\t\t\t4. 散布谣言，扰乱社会秩序，破坏社会稳定的；
+        \n\t\t\t\t5. 散步淫秽、色情、赌博、暴力、凶杀、恐怖、或者教唆犯罪的；
+        \n\t\t\t\t6. 侮辱或者诽谤他人，侵害他人合法权益的;
+        \n\t\t\t\t7. 含有法律、行政法规禁止的其他内容的信息。</string>
+    <string name="version_info">四、版本信息</string>
+    <string name="now_version">\t\t\t\t该版本号为:1.6</string>
+</resources>

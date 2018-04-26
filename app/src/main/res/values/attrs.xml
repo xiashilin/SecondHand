@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingView">
+        <attr name="leftText" format="string" />
+        <attr name="leftIcon" format="integer" />
+        <attr name="rightIcon" format="integer" />
+        <attr name="textSize" format="float" />
+        <attr name="textColor" format="color" />
+        <attr name="isShowUnderLine" format="boolean" />
+        <attr name="leftIconSize" format="dimension" />
+        <attr name="leftTextMarginLeft" format="dimension" />
+        <attr name="rightStyle" format="enum">
+            <enum name="iconShow" value="0" />
+            <enum name="iconHide" value="1" />
+            <enum name="iconCheck" value="2" />
+        </attr>
+        <attr name="isShowRightText" format="boolean" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextSize" format="float" />
+        <attr name="rightTextColor" format="color" />
+    </declare-styleable>
+
+    <!--验证码按钮-->
+    <declare-styleable name="VerifyCodeButton">
+        <!--默认 Button 背景-->
+        <attr name="android:background" />
+        <!--点击获取验证码后 Button 背景-->
+        <attr name="vcb_clickAfterBackground" format="reference" />
+        <!--倒计时时间，单位为秒-->
+        <attr name="vcb_countdownTime" format="integer" />
+        <!--倒计时后的提示文字，如：重新获取-->
+        <attr name="vcb_afterCountdownText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LimitScroller">
+        <!--显示的条目数量-->
+        <attr name="limit" format="integer" />
+        <!--滚动速度，比如3000，滚动时间会持续3秒钟-->
+        <attr name="durationTime" format="integer" />
+        <!--滚动间隔，比如5000，滚动完成后停留5秒继续滚动-->
+        <attr name="periodTime" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="DragScrollLayout">
+        <!-- float value for indicate the moment of switch panel-->
+        <attr name="percent" format="float" />
+        <!-- how long the animation keep-->
+        <attr name="duration" format="integer" />
+        <!-- default panel to show after init-->
+        <attr name="default_panel" format="enum">
+            <enum name="front" value="0" />
+            <enum name="behind" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

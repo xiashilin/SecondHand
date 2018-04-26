@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xsl.secondhand">
+
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- 基础模块（必须加入以下声明）START -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+    <application
+        android:name="com.xsl.secondhand.APP"
+        android:allowBackup="true"
+        android:icon="@mipmap/mini_authorize_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mini_authorize_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.xsl.secondhand.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xsl.secondhand.activity.MainActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.ReleaseGoodsActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name="com.xsl.secondhand.activity.GoodsDetailActivity" />
+        <activity android:name="com.xsl.secondhand.activity.ReleaseActivity" />
+        <activity android:name="com.xsl.secondhand.activity.MessageActivity" />
+        <activity android:name="com.xsl.secondhand.activity.UserInfoActivity" />
+        <activity android:name="com.xsl.secondhand.activity.FeedBackActivity" />
+        <activity android:name="com.xsl.secondhand.activity.AboutActivity" />
+        <activity android:name="com.xsl.secondhand.activity.CollectActivity" />
+        <activity android:name="com.xsl.secondhand.activity.LeaveMessageActivity" />
+    </application>
+
+</manifest>
